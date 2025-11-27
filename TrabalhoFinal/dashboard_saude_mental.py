@@ -158,6 +158,7 @@ caps_projetados = modelo_caps.predict(anos_futuros)
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.title = "Dashboard - Saúde Mental no Brasil"
+server = app.server
 
 # ============================================================================
 # FUNÇÕES PARA CRIAR GRÁFICOS

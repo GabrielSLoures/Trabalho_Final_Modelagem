@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/gabrielloures/Desktop/IDP/Quarto Semestre/Modelagem_e_Programacao_Estatistica/Aulas práticas/Git_Trabalho_Final/Trabalho_Final_Modelagem/TrabalhoFinal/venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from charset_normalizer.cli import cli_detect
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(cli_detect())
