@@ -1,0 +1,14 @@
+
+# Requirements para Dashboard - Saúde Mental no Brasil
+
+dash
+dash-bootstrap-components
+plotly
+pandas
+numpy
+scikit-learn
+scipy
+
+# Optional
+gunicorn
+
